@@ -1,0 +1,17 @@
+@media (max-width: 1140px) {
+  .service article:last-child {
+    display: none;
+  }
+  .service {
+    display: block;
+  }
+  .about-sect{
+      flex-direction: column;
+      text-align: center;
+  }
+.about-sect p{
+max-width: 600px;
+font-size: 1.5rem;
+margin: 100px auto;
+  }
+}
