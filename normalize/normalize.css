@@ -356,10 +356,13 @@ template {
   box-sizing: border-box;
   text-decoration: none;
   transition: .4s ease-in-out;
-  overflow-x: clip;
+  /* overflow-x: clip; */
   line-height: 1.6;
   word-break: break-word;
   text-transform: capitalize;
+}
+a{
+  text-decoration: none;
 }
 ul{
   margin: 0;
