@@ -1,8 +1,11 @@
-@media (max-width: 450px) {
+@media (max-width: 490px) {
     section.first h1{
         font-size: 2.6rem;
     }
     section.first p{
         font-size: 1.2rem;
+    }
+    .about-sect .col-6:first-child::after{
+        display: none;
     }
 }
