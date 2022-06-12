@@ -275,3 +275,7 @@ div.third.about {
   margin-top: 60px;
   color: #777;
 }
+
+section.sec .card:last-child{
+  padding-bottom: 60px;
+}
